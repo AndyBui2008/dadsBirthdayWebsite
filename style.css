@@ -1,0 +1,333 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    cursor: url("images/papa.png"), auto;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F5F5;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.25;
+    font-family: 'Crimson Text', serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+.header {
+    background-color: #74C69D;
+    text-align: center;
+    padding: 5px;
+}
+
+/*Banner Section*/
+
+.banner-image {
+    background-image: url("../images/papa.png");
+    min-height: 30px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 250px;
+
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 50px;
+
+}
+
+.banner {
+    background-color: #74C69D;
+}
+
+.sub-heading {
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+
+
+.banner-heading {
+    font-size: 40px;
+    color: white;
+    margin: 15px 0 15px;
+    text-align: center;
+}
+
+.banner-paragraph {
+    color: white;
+    text-align: center;
+}
+
+
+
+.banner-button {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border-radius: 5px;
+    padding: 15px 48px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.animated-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/binladen.png');
+    /* Add your icon or image URL here */
+    background-size: cover;
+    display: none;
+    animation: flyUp 1s ease-in-out;
+}
+
+@keyframes flyUp {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateY(-100px);
+        opacity: 0.4;
+    }
+
+    100% {
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+}
+
+
+
+.banner-image {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 85px;
+    text-align: left;
+}
+
+/*Partner Section */
+
+.partners-content {
+    max-width: 410px;
+    padding-top: 60px;
+    text-align: center;
+    margin: auto;
+}
+
+.partner-image {
+    background-image: url("../images/dictator.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.family-image {
+    background-image: url("../images/family1.png");
+    background-color: #eeeeee;
+
+    min-height: 230px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.family2-image {
+    background-image: url("../images/family21.png");
+    background-color: #eeeeee;
+    min-height: 230px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sub-heading {
+    color: black
+}
+
+.partner-apps {
+    margin-top: 60px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.partner-heading {
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+.partner-paragraph {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+
+}
+
+.button {
+    display: inline-block;
+    background-color: #212529;
+    color: white;
+    border-radius: 5px;
+    padding: 13px 30px;
+    text-decoration: none;
+}
+
+.partners-button {
+    text-align: center;
+}
+
+/* Friends Section */
+.friends-section {
+    margin-top: 75px;
+}
+
+.friends-image {
+    max-width: 100%;
+}
+
+.friends-content {
+    text-align: left;
+    margin-left: 130px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: black;
+    font-size: 40px;
+}
+
+.paragraph {
+    color: rgba(33, 37, 41, 0.5);
+    margin: 16px 0 30px;
+}
+
+/* Work Section */
+.work-image {
+    max-width: 100%;
+}
+
+.work-content {
+    margin-right: 110px;
+    text-align: left;
+
+}
+
+/*Team Section */
+.talent-section {
+    margin-top: 100px;
+}
+
+.talent-content {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.talent-heading {
+    margin: 16px 0 16px;
+}
+
+
+
+
+.employee-heading {
+    font-size: 24px;
+    padding: 17px 0 17px;
+    text-align: center
+}
+
+.ending {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.box {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+.button-wrapper {
+    margin-top: 45px;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background: #74C69D;
+    margin-top: 65px;
+    padding: 50px 130px;
+}

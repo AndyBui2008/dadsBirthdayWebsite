@@ -1,0 +1,212 @@
+.container {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.container--small {
+    max-width: 800px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.column-mobile-6 {
+    width: 50%;
+    max-width: 50%;
+}
+
+@media(min-width: 768px) {
+    .column-tablet-12 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .column-tablet-11 {
+        width: 91.666666%;
+        max-width: 91.666666%;
+    }
+
+    .column-tablet-10 {
+        width: 83.33333%;
+        max-width: 83.33333;
+    }
+
+    .column-tablet-9 {
+        width: 75%;
+        max-width: 75%;
+    }
+
+    .column-tablet-8 {
+        width: 66.666666%;
+        max-width: 66.666666%;
+    }
+
+    .column-tablet-7 {
+        width: 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    .column-tablet-6 {
+        width: 50%;
+        max-width: 50%;
+    }
+
+    .column-tablet-5 {
+        width: 41.666666%;
+        max-width: 41.666666%;
+    }
+
+    .column-tablet-4 {
+        width: 33.33333%;
+        max-width: 33.33333%;
+    }
+
+    .column-tablet-3 {
+        width: 25%;
+        max-width: 25%;
+    }
+
+    .column-tablet-2 {
+        width: 16.666666%;
+        max-width: 16.666666%;
+    }
+
+    .column-tablet-1 {
+        width: 8.333333%;
+        max-width: 8.33333%;
+    }
+}
+
+@media(min-width: 992px) {
+    .column-laptop-12 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .column-laptop-11 {
+        width: 91.666666%;
+        max-width: 91.666666%;
+    }
+
+    .column-laptop-10 {
+        width: 83.33333%;
+        max-width: 83.33333;
+    }
+
+    .column-laptop-9 {
+        width: 75%;
+        max-width: 75%;
+    }
+
+    .column-laptop-8 {
+        width: 66.666666%;
+        max-width: 66.666666%;
+    }
+
+    .column-laptop-7 {
+        width: 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    .column-laptop-6 {
+        width: 50%;
+        max-width: 50%;
+    }
+
+    .column-laptop-5 {
+        width: 41.666666%;
+        max-width: 41.666666%;
+    }
+
+    .column-laptop-4 {
+        width: 33.33333%;
+        max-width: 33.33333%;
+    }
+
+    .column-laptop-3 {
+        width: 25%;
+        max-width: 25%;
+    }
+
+    .column-laptop-2 {
+        width: 16.666666%;
+        max-width: 16.666666%;
+    }
+
+    .column-laptop-1 {
+        width: 8.333333%;
+        max-width: 8.33333%;
+    }
+}
+
+@media(min-width: 1200px) {
+    .column-desktop-12 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .column-desktop-11 {
+        width: 91.666666%;
+        max-width: 91.666666%;
+    }
+
+    .column-desktop-10 {
+        width: 83.33333%;
+        max-width: 83.33333;
+    }
+
+    .column-desktop-9 {
+        width: 75%;
+        max-width: 75%;
+    }
+
+    .column-desktop-8 {
+        width: 66.666666%;
+        max-width: 66.666666%;
+    }
+
+    .column-desktop-7 {
+        width: 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    .column-desktop-6 {
+        width: 50%;
+        max-width: 50%;
+    }
+
+    .column-desktop-5 {
+        width: 41.666666%;
+        max-width: 41.666666%;
+    }
+
+    .column-desktop-4 {
+        width: 33.33333%;
+        max-width: 33.33333%;
+    }
+
+    .column-desktop-3 {
+        width: 25%;
+        max-width: 25%;
+    }
+
+    .column-desktop-2 {
+        width: 16.666666%;
+        max-width: 16.666666%;
+    }
+
+    .column-desktop-1 {
+        width: 8.333333%;
+        max-width: 8.33333%;
+    }
+}
